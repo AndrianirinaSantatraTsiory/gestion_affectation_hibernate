@@ -1,0 +1,70 @@
+
+.sidebar{
+	-fx-background-color:#2c3e50;
+}
+.buttonSidebar{
+	-fx-background-color:#2c3e50;
+	-fx-text-fill: white;
+	-fx-border-color:#95a5a6; 
+	-fx-border-radius:8; 
+}
+.buttonSidebar:hover{
+	-fx-background-color:#95a5a6;
+	-fx-text-fill: #2c3e50;
+	-fx-border-color:#95a5a6; 
+	-fx-border-radius:8; 
+}
+.table-view {
+	 -fx-background-color:#2c3e50;
+}
+.table-view .column-header-background{
+        -fx-background-color: #2c3e50;
+        -fx-background-insets: 0 0 10 0;
+  }
+ .table-view .column-header, .table-view .filler{
+        -fx-size:50px;
+        -fx-border-width: 0 0 5 0;
+        -fx-background-color:transparent;        
+    }
+  .table-view .column-header .label {
+       -fx-text-fill: #ecf0f1 ;
+       -fx-alignment: LEFT;
+   }
+
+.buttonAjout{
+	-fx-background-color:#f39c12;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-border-radius:8; 
+}
+.buttonAjout:hover{
+	-fx-background-color:white;
+	-fx-text-fill: #f39c12;
+	-fx-border-color:#f39c12; 
+}
+.textListAff{
+	-fx-background-color: #2c3e50;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-border-radius:8; 
+}
+.textListAff:hover{
+	-fx-background-color:white;
+	-fx-text-fill: #2c3e50;
+	-fx-border-color:#2c3e50;  
+}
+
+.modifier-button {
+    -fx-background-color: #f1c40f;
+    -fx-text-fill: #ecf0f1; 
+}
+
+.supprimer-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: #ecf0f1; 
+}
+
+.rechercher{
+	-fx-background:#f39c12;
+}
+
